@@ -161,9 +161,9 @@ The dataset includes the following files and directories:
 - The training process may take a while depending on the size of the dataset and the hardware you're using (especially on a GPU).
 
 ---
-### Improvements Needed 
+### Improvements that can be done
 
-- Our PyramidVisionTransformer V2_b2 was not able to perform better on some attributes (eg : fine grained attributes of sarees ) , so  we tried to use Swin Transformer
+- Our PyramidVisionTransformer V2_b2 was not able to perform better on some attributes (eg : fine grained attributes of sarees ) , so  we tried to use ViT + Swin Transformer (Cross Attention), you can see it's training code in the Improvements folder , it helps to improve F1 score on sarees category . We can do inference similar by using it's path.
 
 ---
 
