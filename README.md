@@ -163,7 +163,7 @@ The dataset includes the following files and directories:
 ---
 ### Improvements that can be done
 
-- Our PyramidVisionTransformer V2_b2 was not able to perform better on some attributes (eg : fine grained attributes of sarees ) , so  we tried to use ViT + Swin Transformer (Cross Attention), you can see it's training code in the Improvements folder , it helps to improve F1 score on sarees category . We can do inference similar by using it's path.
+- Our PyramidVisionTransformer V2_b2 was not able to perform better on some attributes (eg : fine grained attributes of sarees ) , so  we tried to use ViT + Swin Transformer (Cross Attention), you can see it's training code in the Improvements folder , it helps to improve F1 score on sarees category . We can do inference on sarees attributes similarly as done before by using model path.
 
 ---
 
