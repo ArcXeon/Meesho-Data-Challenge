@@ -54,11 +54,11 @@ The dataset includes the following files and directories:
 
    Create a `training.csv` file with the following structure:
    
-   | category          | len_attributes_category | attribute_labels  |
+   | category          | len                     | attr_i  |
    |-------------------|-------------------------|-------------------|
-   | Sarees            | 5                       | ['Label1', 'Label2', ...] |
-   | Kurtis            | 3                       | ['Label1', 'Label2', ...] |
-   | Men’s T-Shirts    | 4                       | ['Label1', 'Label2', ...] |
+   | Sarees            | 10                       | ['Label1', 'Label2', ...] |
+   | Kurtis            | 9                       | ['Label1', 'Label2', ...] |
+   | Men T-Shirts      | 5                       | ['Label1', 'Label2', ...] |
    | ...               | ...                     | ...               |
 
 2. **Organize the Training Images**:
@@ -92,11 +92,11 @@ The dataset includes the following files and directories:
 
    Create a `test.csv` file with the same structure as the `training.csv` file, which should contain:
    
-   | category          | len_attributes_category | attribute_labels  |
+   | category          | len_attributes_category | attr_i  |
    |-------------------|-------------------------|-------------------|
-   | Sarees            | 5                       | ['Label1', 'Label2', ...] |
-   | Kurtis            | 3                       | ['Label1', 'Label2', ...] |
-   | Men’s T-Shirts    | 4                       | ['Label1', 'Label2', ...] |
+   | Sarees            | 10                       | ['Label1', 'Label2', ...] |
+   | Kurtis            | 9                       | ['Label1', 'Label2', ...] |
+   | Men T-Shirts      | 5                       | ['Label1', 'Label2', ...] |
    | ...               | ...                     | ...               |
 
 2. **Organize the Test Images**:
