@@ -121,8 +121,7 @@ The dataset includes the following files and directories:
 
 5. **Output**:
 
-   The predicted labels of attributes of each category is saved in the output file from each category inference code. Then we use just merge the output of every category and get the desired submission file       
-   (combine-submissions.ipynb)
+   The predicted labels of attributes of each category is saved in the output file from each category inference code. Then we use just merge the output of every category and get the desired submission file   (combine-submissions.ipynb)
 
 ---
 
