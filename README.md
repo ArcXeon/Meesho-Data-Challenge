@@ -7,7 +7,11 @@ This repository contains the training and inference code for classifying product
 - **Women's T-Shirts**  
 - **Women's Tops and Tunics**  
 
-The project leverages the PVTv2 (Pyramid Vision Transformer v2) model for attribute prediction based on product images.
+The project leverages the PVTv2 (Pyramid Vision Transformer v2) b2 (25.4M parameters) model for attribute prediction based on product images.
+
+## Approach 
+### PVTv2b2(25.4 M parameters) + XGBoost Classifier + F1 Optimization 
+
 
 ---
 
@@ -144,6 +148,7 @@ The dataset includes the following files and directories:
 
 - If running in a local environment, ensure that all dependencies are installed, including **PVTv2-b2**. You can install it from GitHub or Hugging Face as described in the **Prerequisites** section.
 - Ensure that you have **CUDA** set up if you're using a GPU.
+- Ensure that after training model for each category , load the model path accordingly in the inference code to get correct results/
 
 ### Pre-trained Model
 
@@ -156,6 +161,13 @@ The dataset includes the following files and directories:
 - The training process may take a while depending on the size of the dataset and the hardware you're using (especially on a GPU).
 
 ---
+### Improvements Needed 
+
+- Our PyramidVisionTransformer V2_b2 , 
+
+---
+
+
 
 ## References
 
