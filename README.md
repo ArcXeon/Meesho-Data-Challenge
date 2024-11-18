@@ -3,9 +3,9 @@
 This repository contains the training and inference code for classifying product attributes into five categories:  
 - **Sarees**  
 - **Kurtis**  
-- **Men's T-Shirts**  
-- **Women's T-Shirts**  
-- **Women's Tops and Tunics**  
+- **Men T-Shirts**  
+- **Women T-Shirts**  
+- **Women Tops and Tunics**  
 
 The project leverages the PVTv2 (Pyramid Vision Transformer v2) b2 (25.4M parameters) model for attribute prediction based on product images.
 
