@@ -134,4 +134,28 @@ The dataset includes the following files and directories:
 2. **Instructions**: Detailed steps for setting up the dataset, configuring the paths, and running the notebooks.
 3. **Model Reference**: Direct links to the PVTv2 model on GitHub and Hugging Face, as well as in our repository for pre-trained models.
 
-You can copy this into your `README.md` file, and it should be ready to use.
+## Notes
+
+### Local Environment Setup
+
+- If running in a local environment, ensure that all dependencies are installed, including **PVTv2-b2**. You can install it from GitHub or Hugging Face as described in the **Prerequisites** section.
+- Ensure that you have **CUDA** set up if you're using a GPU.
+
+### Pre-trained Model
+
+- If you don't want to train the model from scratch, you can use the pre-trained model available in this repository:
+  - **GitHub Repo**: [meesho-data-knights/pvt-v2-b2](https://github.com/meesho-data-knights/pvt-v2-b2)
+  - **Hugging Face**: [OpenGVLab/pvt_v2_b2](https://huggingface.co/OpenGVLab/pvt_v2_b2)
+
+### Model Training Time
+
+- The training process may take a while depending on the size of the dataset and the hardware you're using (especially on a GPU).
+
+---
+
+## References
+
+- [PVTv2 GitHub](https://github.com/meesho-data-knights/pvt-v2-b2)
+- [PVTv2 on Hugging Face](https://huggingface.co/OpenGVLab/pvt_v2_b2)
+- [PVTv2 Model in our GitHub Repository](https://github.com/meesho-data-knights/pvt-v2-b2)
+
