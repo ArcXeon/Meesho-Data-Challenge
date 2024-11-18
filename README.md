@@ -10,7 +10,7 @@ This repository contains the training and inference code for classifying product
 The project leverages the PVTv2 (Pyramid Vision Transformer v2) b2 (25.4M parameters) model for attribute prediction based on product images.
 
 ## Approach 
-### PVTv2b2(25.4 M parameters) + XGBoost Classifier + F1 Optimization 
+### Pyramid Vision Transformer V2 Feature Extractor + XGBoost Classifier + F1 Optimization 
 
 
 ---
