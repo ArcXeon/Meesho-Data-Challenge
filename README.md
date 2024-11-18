@@ -1,4 +1,4 @@
-# Product Attribute Classification
+# Predict Attribute from Product Images (Team Name : Data_Knights)
 
 This repository contains the training and inference code for classifying product attributes into five categories:  
 - **Sarees**  
@@ -70,17 +70,20 @@ The dataset includes the following files and directories:
    Open the `training_category.ipynb` notebook and set the following paths:
    - `training.csv`: Path to your training CSV file.
    - `train_images/`: Path to the directory containing the training images.
+   - After this , training code will do training of that category, similary we can do train for every category .
 
 4. **Run the Training**:
 
    - The notebook will train the model for 10 epochs with a learning rate of `1e-4`.
    - The AdamW optimizer will be used.
    - The model will be saved at each epoch, and the best-performing model based on **F1-micro** and **F1-macro** scores will be selected.
+   
 
 5. **Model Checkpoints**:
 
    - After training is complete, the best model (based on harmonic F1 scores) will be saved.
    - The path to the best-performing model will be provided for later use in inference.
+   - So we have now all the model paths , which are required for inference for test data.
 
 ---
 
@@ -108,6 +111,7 @@ The dataset includes the following files and directories:
    Open the `inference_category.ipynb` notebook and set the following paths:
    - `test.csv`: Path to your test CSV file.
    - `test_images/`: Path to the directory containing the test images.
+   -  After this , inference code will do prediction of attributes labels of that category, similary we can do for every category 
 
    Also, load the best model paths (saved during the training step). These models were selected based on the best harmonic F1 scores.
 
@@ -117,7 +121,8 @@ The dataset includes the following files and directories:
 
 5. **Output**:
 
-   The predicted labels will be saved in an output file.
+   The predicted labels of attributes of each category is saved in the output file from each category inference code. Then we use just merge the output of every category and get the desired submission file       
+   (combine-submissions.ipynb)
 
 ---
 
