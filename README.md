@@ -163,7 +163,7 @@ The dataset includes the following files and directories:
 ---
 ### Improvements Needed 
 
-- Our PyramidVisionTransformer V2_b2 , 
+- Our PyramidVisionTransformer V2_b2 was not able to perform better on some attributes (eg : fine grained attributes of sarees ) , so  we tried to use Swin Transformer
 
 ---
 
