@@ -39,11 +39,6 @@ len_attributes_category: The number of attributes each product in this category 
 attribute_labels: The list of attribute labels for each product.
 Example structure for training.csv:
 
-csv
-Copy code
-category,len_attributes_category,attribute_labels
-Sarees,5,["Color", "Fabric", "Style", "Pattern", "Occasion"]
-Kurtis,4,["Neck Type", "Sleeve Length", "Fabric", "Pattern"]
 Organize the Training Images:
 
 Place all training images in the train_images/ directory.
@@ -71,11 +66,6 @@ category: The product category (same categories as in the training set).
 len_attributes_category: The number of attributes per category.
 Example structure for test.csv:
 
-csv
-Copy code
-category,len_attributes_category
-Sarees,5
-Kurtis,4
 Organize the Test Images:
 
 Place all the test images in the test_images/ directory.
