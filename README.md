@@ -39,7 +39,7 @@ Visual Taxonomy - Kaggle Competition
 
 # Visual Taxonomy - Product Attribute Prediction
 
-This repository contains code and instructions for the **Visual Taxonomy** competition, where the goal is to predict product attributes based on images. The dataset includes images for different product categories such as Sarees, Kurtis, Men’s T-Shirts, Women’s T-Shirts, and Women’s Tops and Tunics. Each product has associated attributes that need to be predicted based on the images.
+This repository contains code and instructions for the **Visual Taxonomy** competition, where the goal is to predict product attributes based on images. The dataset includes images for different product categories such as `Sarees`, Kurtis, Men’s T-Shirts, Women’s T-Shirts, and Women’s Tops and Tunics. Each product has associated attributes that need to be predicted based on the images.
 
 ## Dataset Overview
 
