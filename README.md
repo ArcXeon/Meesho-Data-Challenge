@@ -1,4 +1,4 @@
-# Meesho Visual Taxonomy Data Challenge : Predict Attribute from Product Images 
+# Meesho Visual Taxonomy Data Challenge
 
 ## Team Name: Data Knights
 **Team Members:**
