@@ -6,7 +6,7 @@
 * Rushikesh Khandetod
 * Mannan Thakur
 * Archisman Bera
-
+  
 This repository contains the training and inference code for classifying product attributes into five categories:  
 - **Sarees**  
 - **Kurtis**  
