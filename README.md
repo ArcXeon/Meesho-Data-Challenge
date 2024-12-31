@@ -1,4 +1,9 @@
-# Predict Attribute from Product Images (Team Name : Data_Knights)
+# Predict Attribute from Product Images 
+
+## Team Name: Data Knights
+**Team Members:**
+* Lavesh Kadam
+* Rushikesh Khandetod
 
 This repository contains the training and inference code for classifying product attributes into five categories:  
 - **Sarees**  
